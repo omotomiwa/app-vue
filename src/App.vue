@@ -3,8 +3,7 @@
     <div id="nav" tabs pills>
       <b-nav-item tabs pills >
       <router-link to="/" >Home</router-link> |
-      <router-link to="/country">Country Directory</router-link> |
-      <router-link to="/blog">WeBlog</router-link> 
+      <router-link to="/country">Country Directory</router-link> 
      </b-nav-item>
     </div>
     <router-view/>
