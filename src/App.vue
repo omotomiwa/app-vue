@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <b-nav-item tabs>
+    <div id="nav" tabs pills>
+      <b-nav-item tabs pills >
       <router-link to="/" >Home</router-link> |
       <router-link to="/country">Country Directory</router-link> |
       <router-link to="/blog">WeBlog</router-link> 
